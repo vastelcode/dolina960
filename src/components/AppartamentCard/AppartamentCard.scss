@@ -1,0 +1,48 @@
+.appartament-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 168px;
+  background: rgba($color: #ffff, $alpha: 0.35);
+  border-radius: 16px;
+  &__content {
+    display: flex;
+    gap: 28px;
+  }
+  &__img {
+    width: 128px;
+    height: 128px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .btn {
+      width: 120px;
+      height: 42px;
+      box-sizing: border-box;
+    }
+  }
+  &__header {
+    font-family: 'Stolzl';
+    color: white;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+  &__price {
+    font-family: 'Stolzl';
+    color: white;
+    line-height: 1.4;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    img {
+      width: 13px;
+      height: 17px;
+    }
+  }
+}
